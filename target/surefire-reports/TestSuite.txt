@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 2.38 s <<< FAILURE! - in TestSuite
+Tests.LoginTest.setup[public void Tests.LoginTest.Test1()](0)  Time elapsed: 1.974 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-22-251', ip: '172.31.22.251', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1113-aws', java.version: '1.8.0_265'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x556902e8d579 <unknown>
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17354" started-at="2022-09-18T05:49:10 UTC" finished-at="2022-09-18T05:49:27 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17354" started-at="2022-09-18T05:49:10 UTC" finished-at="2022-09-18T05:49:27 UTC">
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="DataSetup()[pri:0, instance:Tests.LoginTest@42eca56e]" name="DataSetup" is-config="true" duration-ms="696" started-at="2022-09-18T05:49:10 UTC" finished-at="2022-09-18T05:49:11 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@42eca56e]" name="setup" is-config="true" duration-ms="3098" started-at="2022-09-18T05:49:11 UTC" finished-at="2022-09-18T05:49:14 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.Test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Tests.LoginTest@42eca56e]" name="Test1" duration-ms="3820" started-at="2022-09-18T05:49:14 UTC" finished-at="2022-09-18T05:49:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Tests.LoginTest@42eca56e]" name="Teardown" is-config="true" duration-ms="111" started-at="2022-09-18T05:49:18 UTC" finished-at="2022-09-18T05:49:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@42eca56e]" name="setup" is-config="true" duration-ms="1728" started-at="2022-09-18T05:49:18 UTC" finished-at="2022-09-18T05:49:20 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.test2(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@42eca56e]" name="test2" duration-ms="3266" started-at="2022-09-18T05:49:20 UTC" finished-at="2022-09-18T05:49:23 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Tests.LoginTest@42eca56e]" name="Teardown" is-config="true" duration-ms="127" started-at="2022-09-18T05:49:23 UTC" finished-at="2022-09-18T05:49:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@42eca56e]" name="setup" is-config="true" duration-ms="1466" started-at="2022-09-18T05:49:23 UTC" finished-at="2022-09-18T05:49:24 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Tests.LoginTest@42eca56e]" name="test3" duration-ms="2619" started-at="2022-09-18T05:49:24 UTC" finished-at="2022-09-18T05:49:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Tests.LoginTest@42eca56e]" name="Teardown" is-config="true" duration-ms="133" started-at="2022-09-18T05:49:27 UTC" finished-at="2022-09-18T05:49:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="DataClean()[pri:0, instance:Tests.LoginTest@42eca56e]" name="DataClean" is-config="true" duration-ms="250" started-at="2022-09-18T05:49:27 UTC" finished-at="2022-09-18T05:49:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataClean -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
